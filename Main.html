@@ -1,0 +1,40 @@
+<style>
+  .button {
+    border-radius: 3px
+    font-family impacted;
+    font-size: 30px;
+    color: black;
+    background: linear-gradient(#e3ab425a, #e3ab42, #e3ab425a);
+    border-radius: 5px;
+    border: solid;
+
+  }
+
+  .button:hover {
+    background: linear-gradient(#e3ab42, #e3ab42);
+    transition: .15s;
+  }
+
+  body {
+    background-color: black;
+    text-align: center;
+    padding-top: 20%;
+
+  }
+
+
+</style>
+
+<script type="text/javascript">
+  const audio = new Audio();
+  audio.src = "assets/Gold.mp3"
+</script>
+
+<body>
+<button
+  onclick="audio.play();"
+  class="button" 
+  type="button">
+    Gold
+  </button>
+</body>
